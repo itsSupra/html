@@ -1,0 +1,111 @@
+.image{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.image:hover{
+    transform: scale(1.8);
+}
+
+.image-wrapper{
+    height: 256px;
+    width: 256px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    margin: 30px;
+}
+
+body{
+    padding-bottom: 20px;
+}
+
+.col {
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 30px;
+}
+
+.left{
+    text-align: center;
+    width: 40%;
+    max-width: 350px;
+    min-width: 256px;
+}
+
+.right{
+    width: 40%;
+    min-width: 400px;
+}
+
+.headers{
+    font-family: sans-serif,Serif;
+    font-weight: 100;
+    font-size: 25pt;
+    transition: 200ms;
+}
+
+.headers:hover{
+    font-weight: 400;
+    scale: 1.2;
+    transform: translate(20px, 0);
+    cursor: default;
+}
+
+.about {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+br {
+    margin-bottom: 10px;
+}
+
+br:last-child{
+    margin-bottom: 0;
+}
+
+.contacts{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.super-header{
+    font-family: sans-serif,Serif;
+    font-weight: 100;
+    font-size: 48pt;
+}
+
+.education{
+    font-family: sans-serif,Serif;
+    font-weight: 100;
+    text-align: left;
+    align-items: start;
+}
+
+.line {
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+    max-width: 256px;
+}
+
+.vert-line {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    max-width: 1px;
+    width: 1px;
+    height: 100%;
+}
+
+.footer{
+    height: 30px;
+}
